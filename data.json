@@ -1,0 +1,123 @@
+{
+  "site": {
+    "name": "Madni Creations",
+    "tagline": "Kalam & Tazmeen Collection",
+    "description": "A beautiful collection of Islamic Kalam and Tazmeen by Madni Creations."
+  },
+
+  "kalams": [
+    {
+      "id": 1,
+      "title": "Kis Ne Jahaan E Kun Ke Jalwe Dikha Diye Hain",
+      "subtitle": "Kalam-e-Alahazrat — Tazmeen",
+      "category": "Tazmeen",
+      "language": "Roman Urdu",
+
+      "stanzas": [
+        [
+          "Kis ne jahaan e kun ke jalwe dikha diye hain",
+          "Soye hue muqaddar kis ne jaga diye hain",
+          "Ranj o alam ke maare sab muskura diye hain",
+          "Unki mahek ne dil ke ghunchey khila diye hain",
+          "Jis raah chal gaye hain koochey basa diye hain"
+        ],
+
+        [
+          "Afsaana apne gham ka ja kar kise sunaayen",
+          "Ginti ki reh gayi hain sarkaar ab to saansen",
+          "Kab raigaan gayi hai dil se uthi jo aahien",
+          "Jab aa gayi hain josh e rehmat pe unki ankhen",
+          "Jalte bujha diye hain rote hansa diye hain"
+        ],
+
+        [
+          "Garche hai ma'siyat pe israar us ka kitna",
+          "Din raat ho raha hai izhaar us ka kitna",
+          "Asiyaan ki kya haqiqat anbaar us ka kitna",
+          "Ik dil hamara kya hai aazaar us ka kitna",
+          "Tum ne to chalte phirte murde jila diye hain"
+        ],
+
+        [
+          "Ho mubtala e gham ya waise hi ranj mein ho",
+          "Un ke ghulaam ho aur aise hi ranj mein ho",
+          "Bhejo durood un par jaise hi ranj mein ho",
+          "Un ke nisaar koi kaise hi ranj mein ho",
+          "Jab yaad aa gaye hain sab gham bhula diye hain"
+        ],
+
+        [
+          "Jab haaziri ko ghar se zaair nikalte honge",
+          "Jazbaat e qalb e muztar ashkon mein dhalte honge",
+          "Munh maangi aas pa kar kaise machalte honge",
+          "Hum se faqeer bhi ab pheri ko uthte honge",
+          "Ab to ghani ke dar par bistar jama diye hain"
+        ],
+
+        [
+          "Sartaaj aabidon ke hain fakhre zaahidon ke",
+          "Sultaan ke do jahaan mukhtaar mumkinon ke",
+          "Haadi woh do jahaan ke makhzan woh nematon ke",
+          "Asra mein guzre jis dam bere pe qudsiyon ke",
+          "Hone lagi salaami parcham jhuka diye hain"
+        ],
+
+        [
+          "Quran le chala hai hum ko tumhari jaanib",
+          "Le aaye baar e asiyaan ro ro tumhari jaanib",
+          "Bakhsha gaya woh jiska rukh ho tumhari jaanib",
+          "Aane do ya dubo do ab to tumhari jaanib",
+          "Kashti tumhin pe chhodi langar utha diye hain"
+        ],
+
+        [
+          "Lillah idhar bhi dekho pyaare sawari roko",
+          "Tera hoon ik sana go pyaare sawari roko",
+          "Mujrim ko saath le lo pyaare sawari roko",
+          "Dulha se itna keh do pyaare sawari roko",
+          "Mushkil mein hain barati purkhaar baadiye hain"
+        ],
+
+        [
+          "Mahshar mein jab pareshan har ek abd hoga",
+          "Phir aayega woh jisko ummat dard ka hoga",
+          "Sajde mein sar ko rakh ke woh mahw e hamd hoga",
+          "Allah kya jahannam ab bhi na sard hoga",
+          "Ro ro ke Mustafa ne dariya baha diye hain"
+        ],
+
+        [
+          "Jurm o khata pe apne parda kisi ne maanga",
+          "Daaman e Mustafa ka saaya kisi ne maanga",
+          "Jannat mein sab se ooncha rutba kisi ne maanga",
+          "Mere kareem se gar qatra kisi ne maanga",
+          "Dariya baha diye hain dur be baha diye hain"
+        ],
+
+        [
+          "Rab ki tajalliyon ki sheesha kisi ne maanga",
+          "Un se machal machal ke jalwa kisi ne maanga",
+          "Zahra ke laadlon ka sadqa kisi ne maanga",
+          "Mere kareem se gar qatra kisi ne maanga",
+          "Dariya baha diye hain dur be baha diye hain"
+        ],
+
+        [
+          "Moula Ali ka un se jazba kisi ne maanga",
+          "Aadaa pe apne daaim ghalba kisi ne maanga",
+          "Taskheer e do jahaan ka nuskha kisi ne maanga",
+          "Mere kareem se gar qatra kisi ne maanga",
+          "Dariya baha diye hain dur be baha diye hain"
+        ],
+
+        [
+          "Un ke sukhan ko haq ne kitna kiya mukarram",
+          "Ash'aar par Raza ke tazmeen kiya kahein hum",
+          "Jo daagh keh gaye hain kehna Ubaid paiham",
+          "Mulk e sukhan ki shahi tum ko Raza musallam",
+          "Jis simt aa gaye ho sikke bitha diye hain"
+        ]
+      ]
+    }
+  ]
+}
