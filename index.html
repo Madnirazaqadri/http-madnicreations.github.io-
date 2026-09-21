@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Madni Creations | Kalam & Tazmeen</title>
+
+  <meta
+    name="description"
+    content="Madni Creations — A beautiful collection of Islamic Kalam and Tazmeen."
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+</head>
+
+<body>
+
+  <!-- ================= PRELOADER ================= -->
+  <div class="preloader" id="preloader">
+    <div class="loader-logo">
+      <div class="logo-symbol">
+        <span>☪</span>
+      </div>
+      <h2>Madni Creations</h2>
+      <p>Kalam & Tazmeen</p>
+      <div class="loader-line"></div>
+    </div>
+  </div>
+
+
+  <!-- ================= BACKGROUND EFFECTS ================= -->
+  <div class="bg-pattern"></div>
+
+  <div class="particles" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="siteHeader">
+
+    <div class="container nav-container">
+
+      <a href="#home" class="brand">
+
+        <div class="brand-logo">
+          <div class="logo-star">✦</div>
+          <div class="logo-crescent">☪</div>
+          <span>MC</span>
+        </div>
+
+        <div class="brand-text">
+          <strong>Madni</strong>
+          <small>Creations</small>
+        </div>
+
+      </a>
+
+
+      <nav class="desktop-nav">
+
+        <a href="#home" class="nav-link active">
+          <i class="fa-solid fa-house"></i>
+          Home
+        </a>
+
+        <a href="#collection" class="nav-link">
+          <i class="fa-solid fa-book-open"></i>
+          Collection
+        </a>
+
+        <a href="#about" class="nav-link">
+          <i class="fa-solid fa-circle-info"></i>
+          About
+        </a>
+
+      </nav>
+
+
+      <div class="nav-actions">
+
+        <button
+          class="icon-btn"
+          id="themeToggle"
+          aria-label="Toggle theme"
+          title="Toggle theme"
+        >
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Open menu"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobileNav">
+
+      <a href="#home">
+        <i class="fa-solid fa-house"></i>
+        Home
+      </a>
+
+      <a href="#collection">
+        <i class="fa-solid fa-book-open"></i>
+        Collection
+      </a>
+
+      <a href="#about">
+        <i class="fa-solid fa-circle-info"></i>
+        About
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- ================= MAIN ================= -->
+  <main>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+
+      <div class="hero-glow"></div>
+
+      <div class="container hero-content">
+
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          Islamic Kalam & Tazmeen
+        </div>
+
+
+        <h1 class="reveal">
+          Words That
+          <span>Touch The Heart</span>
+        </h1>
+
+
+        <p class="hero-description reveal">
+          Explore a beautiful collection of Kalam and Tazmeen,
+          preserved with love and presented in an elegant reading experience.
+        </p>
+
+
+        <div class="hero-buttons reveal">
+
+          <a href="#collection" class="btn btn-primary">
+            <i class="fa-solid fa-book-open"></i>
+            Explore Collection
+          </a>
+
+          <button class="btn btn-outline" id="randomBtn">
+            <i class="fa-solid fa-shuffle"></i>
+            Random Kalam
+          </button>
+
+        </div>
+
+
+        <div class="hero-stats reveal">
+
+          <div class="stat">
+            <strong id="kalamCount">0</strong>
+            <span>Kalams</span>
+          </div>
+
+          <div class="stat-divider"></div>
+
+          <div class="stat">
+            <strong>∞</strong>
+            <span>Memories</span>
+          </div>
+
+          <div class="stat-divider"></div>
+
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Free</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="scroll-indicator">
+        <span>Scroll to explore</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+
+    </section>
+
+
+    <!-- ================= COLLECTION ================= -->
+    <section class="collection-section" id="collection">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <div class="section-kicker">
+            <span></span>
+            Our Collection
+            <span></span>
+          </div>
+
+          <h2>
+            Kalam <em>&</em> Tazmeen
+          </h2>
+
+          <p>
+            Read, remember and share beautiful words of devotion.
+          </p>
+
+        </div>
+
+
+        <!-- SEARCH / FILTER -->
+        <div class="collection-tools reveal">
+
+          <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+              type="search"
+              id="searchInput"
+              placeholder="Search Kalam..."
+              autocomplete="off"
+            >
+
+            <button
+              id="clearSearch"
+              class="clear-search"
+              aria-label="Clear search"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+
+          </div>
+
+
+          <div class="filter-wrapper">
+
+            <i class="fa-solid fa-filter"></i>
+
+            <select id="categoryFilter">
+              <option value="all">All Categories</option>
+            </select>
+
+          </div>
+
+        </div>
+
+
+        <!-- COLLECTION GRID -->
+        <div class="kalam-grid" id="kalamGrid">
+          <!-- Cards will be generated from data.json -->
+        </div>
+
+
+        <!-- EMPTY STATE -->
+        <div class="empty-state" id="emptyState">
+
+          <div class="empty-icon">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+
+          <h3>No Kalam Found</h3>
+
+          <p>
+            Try another search or choose a different category.
+          </p>
+
+          <button class="btn btn-primary" id="resetSearch">
+            Reset Search
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about-section" id="about">
+
+      <div class="container about-container">
+
+        <div class="about-decoration">
+          <div class="about-star">✦</div>
+          <div class="about-crescent">☪</div>
+        </div>
+
+
+        <div class="about-content reveal">
+
+          <div class="section-kicker">
+            <span></span>
+            About Madni Creations
+            <span></span>
+          </div>
+
+          <h2>
+            Preserving Beautiful
+            <em>Words</em>
+          </h2>
+
+          <p>
+            Madni Creations is a simple and elegant collection
+            dedicated to Kalam and Tazmeen. Our aim is to keep
+            beautiful poetry organized and easy to read.
+          </p>
+
+          <p>
+            More Kalams and Tazmeens will be added to the collection
+            over time, In Sha Allah.
+          </p>
+
+          <div class="about-signature">
+            <span>With Love</span>
+            <strong>Madni Creations</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= READER MODAL ================= -->
+  <div class="reader-modal" id="readerModal">
+
+    <div class="modal-overlay" id="modalOverlay"></div>
+
+    <div class="reader-container">
+
+      <button
+        class="modal-close"
+        id="modalClose"
+        aria-label="Close reader"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+
+      <div class="reader-header">
+
+        <div class="reader-category" id="readerCategory">
+          Tazmeen
+        </div>
+
+        <h2 id="readerTitle">
+          Kalam
+        </h2>
+
+        <p id="readerSubtitle">
+          Madni Creations
+        </p>
+
+      </div>
+
+
+      <div class="reader-tools">
+
+        <button id="decreaseText" title="Decrease text size">
+          <i class="fa-solid fa-minus"></i>
+        </button>
+
+        <span>
+          <i class="fa-solid fa-text-height"></i>
+        </span>
+
+        <button id="increaseText" title="Increase text size">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+
+        <div class="tool-divider"></div>
+
+        <button id="copyKalam" title="Copy Kalam">
+          <i class="fa-regular fa-copy"></i>
+        </button>
+
+      </div>
+
+
+      <div class="reader-content" id="readerContent">
+        <!-- Kalam text generated by JavaScript -->
+      </div>
+
+
+      <div class="reader-footer">
+
+        <span>
+          <i class="fa-solid fa-feather-pointed"></i>
+          Madni Creations
+        </span>
+
+        <button id="readerRandom">
+          <i class="fa-solid fa-shuffle"></i>
+          Random
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ================= TOAST ================= -->
+  <div class="toast" id="toast">
+
+    <div class="toast-icon">
+      <i class="fa-solid fa-check"></i>
+    </div>
+
+    <div class="toast-content">
+      <strong id="toastTitle">Done</strong>
+      <span id="toastMessage">Action completed.</span>
+    </div>
+
+  </div>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+
+    <div class="container footer-container">
+
+      <div class="footer-brand">
+
+        <div class="footer-logo">
+          <span>☪</span>
+        </div>
+
+        <div>
+          <strong>Madni Creations</strong>
+          <p>Kalam & Tazmeen Collection</p>
+        </div>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          © <span id="currentYear"></span> Madni Creations
+        </span>
+
+        <span class="footer-made">
+          Made with <i class="fa-solid fa-heart"></i>
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script src="script.js"></script>
+
+</body>
+</html>
